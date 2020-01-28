@@ -24,6 +24,7 @@ class App extends Component {
           <button onClick={() => this.handleOnClickItems()}>
             Click to change items count
             </button>
+          <p>{}</p>
           <button onClick={() => this.handleOnClickUsers()}>
             Click to change user count
           </button>
